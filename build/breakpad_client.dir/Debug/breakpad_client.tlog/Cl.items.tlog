@@ -1,0 +1,11 @@
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\crash_generation\client_info.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\client_info.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\crash_generation\crash_generation_client.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\crash_generation_client.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\crash_generation\crash_generation_server.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\crash_generation_server.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\handler\exception_handler.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\exception_handler.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\sender\crash_report_sender.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\crash_report_sender.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\windows\guid_string.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\guid_string.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\windows\http_upload.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\http_upload.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\windows\string_utils.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\string_utils.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\convert_UTF.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\convert_UTF.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\md5.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\md5.obj
+C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\string_conversion.cc;C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\build\breakpad_client.dir\Debug\string_conversion.obj

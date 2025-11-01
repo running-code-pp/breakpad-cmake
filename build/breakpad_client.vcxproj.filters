@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\crash_generation\client_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\crash_generation\crash_generation_client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\crash_generation\crash_generation_server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\handler\exception_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\client\windows\sender\crash_report_sender.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\windows\guid_string.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\windows\http_upload.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\windows\string_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\convert_UTF.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\md5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\string_conversion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\convert_UTF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\breakpad-2024.02.16\src\common\string_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\33209\.conan2\p\b\break43a6d607122eb\b\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B44A769C-2C2A-3E30-BA1D-A7904771DD73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D56D5699-54AB-37BE-A47A-8D6CCDFBA447}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

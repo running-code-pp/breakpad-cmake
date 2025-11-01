@@ -1,0 +1,10 @@
+^C:\USERS\33209\.CONAN2\P\B\BREAK43A6D607122EB\B\CMAKELISTS.TXT
+setlocal
+E:\software\CMake\bin\cmake.exe -SC:/Users/33209/.conan2/p/b/break43a6d607122eb/b -BC:/Users/33209/.conan2/p/b/break43a6d607122eb/b/build --check-stamp-file C:/Users/33209/.conan2/p/b/break43a6d607122eb/b/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
