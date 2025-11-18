@@ -1,5 +1,5 @@
 # why create this repository?
-I planned to integrate Breakpad via Conan, but discovered it wouldn't build on Windows. Therefore, I cloned the Breakpad 2024.02.16 source code and created a CMake build script for it. You can now add it to your local Conan repository and build it using CMake,the breakpad package in conan center can just use in liux
+I planned to integrate Breakpad via Conan, but discovered it wouldn't build on Windows. Therefore, I cloned the Breakpad 2024.02.16 source code and created a CMake build script for it. You can now add it to your local Conan repository and build it using CMake,the breakpad package in conan center can just use in linux
 
 # Install as local conan packages
 
@@ -39,7 +39,6 @@ To install this Breakpad package to your local Conan package repository:
    [requires]
    breakpad/2024.02.16
    ```
-
 
 # Example: Using in CMakeLists.txt
 

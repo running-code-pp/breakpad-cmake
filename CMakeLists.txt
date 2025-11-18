@@ -57,16 +57,16 @@ if(WIN32 AND BREAKPAD_BUILD_CLIENT)
         breakpad-2024.02.16/src/common/windows/http_upload.cc
         breakpad-2024.02.16/src/common/windows/string_utils.cc
     )
-    
+
     add_library(breakpad_client ${BREAKPAD_CLIENT_WINDOWS_SOURCES} ${BREAKPAD_COMMON_SOURCES})
     
     target_include_directories(breakpad_client PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/breakpad-2024.02.16/src>
         $<INSTALL_INTERFACE:include>
     )
-    
+
     target_link_libraries(breakpad_client PRIVATE wininet.lib)
-    
+
     set_target_properties(breakpad_client PROPERTIES
         PUBLIC_HEADER "breakpad-2024.02.16/src/client/windows/handler/exception_handler.h"
         OUTPUT_NAME "breakpad_client"
@@ -80,7 +80,7 @@ if(UNIX AND NOT APPLE AND BREAKPAD_BUILD_CLIENT)
     # 检查是否有 getcontext 函数
     include(CheckFunctionExists)
     check_function_exists(getcontext HAVE_GETCONTEXT)
-    
+
     set(BREAKPAD_CLIENT_LINUX_SOURCES
         breakpad-2024.02.16/src/client/linux/crash_generation/crash_generation_client.cc
         breakpad-2024.02.16/src/client/linux/crash_generation/crash_generation_server.cc
@@ -105,22 +105,22 @@ if(UNIX AND NOT APPLE AND BREAKPAD_BUILD_CLIENT)
         breakpad-2024.02.16/src/common/linux/safe_readlink.cc
         ${BREAKPAD_COMMON_SOURCES}
     )
-    
+
     if(NOT HAVE_GETCONTEXT)
         list(APPEND BREAKPAD_CLIENT_LINUX_SOURCES
             breakpad-2024.02.16/src/common/linux/breakpad_getcontext.S
         )
     endif()
-    
+
     add_library(breakpad_client ${BREAKPAD_CLIENT_LINUX_SOURCES})
-    
+
     target_include_directories(breakpad_client PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/breakpad-2024.02.16/src>
         $<INSTALL_INTERFACE:include>
     )
-    
+
     target_link_libraries(breakpad_client PRIVATE pthread dl)
-    
+
     set_target_properties(breakpad_client PROPERTIES
         PUBLIC_HEADER "breakpad-2024.02.16/src/client/linux/handler/exception_handler.h"
         OUTPUT_NAME "breakpad_client"
@@ -198,7 +198,7 @@ if(BREAKPAD_BUILD_PROCESSOR)
     endif()
     
     set_target_properties(breakpad_processor PROPERTIES
-        OUTPUT_NAME "breakpad"
+        OUTPUT_NAME "breakpad_processor"
         POSITION_INDEPENDENT_CODE ON
     )
 endif()
